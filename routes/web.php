@@ -268,8 +268,5 @@ Route::get('/getName', function (){
     return User::find(2)->name;
 });
 
-Route::get('/setName', function (){
-    User::find(2)->update(['name'=>'BARAA']);
 
-});
 
